@@ -1,8 +1,11 @@
 package com.company;
 
 public class Student {
-    int[] score = new int[3];
+    int[] score;
     String name;
+
+    public Student() {
+    }
 
     public Student(int[] score, String name) {
         this.score = score;

@@ -38,7 +38,7 @@ public class Main {
         if (isInt) {
             int score = passingScore.nextInt();
             if(score <= 10 && score >= 0){
-                Student newStudent = new Student(scoreIn(),null);
+                Student newStudent = new Student();
                 int totalScore = 0;
                 for(int i=0;i<students.length;i++){
                    newStudent = students[i];
