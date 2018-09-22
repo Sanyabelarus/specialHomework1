@@ -1,23 +1,21 @@
 package com.company;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        Student sanya = new Student(scoreIn(),"Sanya");
-        Student sveta = new Student(scoreIn(),"Sveta");
-        Student nikita = new Student(scoreIn(),"Nikita");
-        Student kirill = new Student(scoreIn(),"Kirill");
-        Student aleksey = new Student(scoreIn(),"Aleksey");
-        Student viktor = new Student(scoreIn(), "Viktor");
-        Student maria = new Student(scoreIn(), "Maria");
-        Student mihail = new Student(scoreIn(), "Mihail");
-        Student katya = new Student(scoreIn(), "Katya");
-        Student marina = new Student(scoreIn(), "Marina");
+        Student sanya = new Student(scoreIn(),"Александр");
+        Student sveta = new Student(scoreIn(),"Светлана");
+        Student nikita = new Student(scoreIn(),"Никита");
+        Student kirill = new Student(scoreIn(),"Кирилл");
+        Student aleksey = new Student(scoreIn(),"Алексей");
+        Student viktor = new Student(scoreIn(), "Виктор");
+        Student maria = new Student(scoreIn(), "Мария");
+        Student mihail = new Student(scoreIn(), "Михаил");
+        Student katya = new Student(scoreIn(), "Екатерина");
+        Student marina = new Student(scoreIn(), "Марина");
         Student [] allStudents = {sanya,sveta,nikita,kirill,aleksey,viktor,maria,mihail,katya,marina};
         enlisted(allStudents);
 
