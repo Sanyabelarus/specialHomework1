@@ -33,7 +33,7 @@ public class Main {
 
     public static void enlisted(Student[] students) {
         Scanner passingScore = new Scanner(System.in);
-        System.out.println("Введите проходной балл");
+        System.out.println("Введите проходной балл от 1 до 10");
         boolean isInt = passingScore.hasNextInt();
         if (isInt) {
             int score = passingScore.nextInt();
@@ -47,7 +47,7 @@ public class Main {
                    }
                    totalScore /=3;
                     if(totalScore >= score){
-                        System.out.println(students[i].getName() + " Зачислен на курс");
+                        System.out.println(students[i].getName() + " зачислен на курс");
                     }
                     totalScore = 0;
                 }
