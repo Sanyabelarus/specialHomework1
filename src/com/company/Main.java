@@ -72,6 +72,7 @@ public class Main {
                score(students.get(x).score);
                find = true;
             }
+
         }
         if (!find){
             System.out.println("Вы ввели не существующего студента");
